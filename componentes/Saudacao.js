@@ -1,5 +1,5 @@
 import react from "react";
-import {text} from "react-native";
+import {Text} from "react-native";
 
 export default function Saudacao({nome}){
     return(
