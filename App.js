@@ -15,33 +15,26 @@ export default function App() {
 
    <CartaoUsuario nome='gabriel'
      descricao={'Programador Mobile'}
-     img='perfil002'
+     img='1.jpg'
    />
 
 
    <CartaoUsuario nome='Pedro'
      descricao={'Programador Mobile'}
-     img='perfil01'
+     img='2.jpg'
    />
 
 
    <CartaoUsuario nome='Guilherme'
      descricao={'Programador Mobile'}
-     img='perfil02'
+     img='3.jpg'
    />
 
 
    <CartaoUsuario nome='nicolas'
      descricao={'Programador Mobile'}
-     img='perfil03'
+     img='4.jpg'
    />
-
-
-   <CartaoUsuario nome='thiago'
-     descricao={'Programador Mobile'}
-     img='perfil04'
-   />
-
 
  </ScrollView>
 
