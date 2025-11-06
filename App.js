@@ -1,41 +1,52 @@
 import React from "react";
 import { ScrollView } from "react-native";
-import Titulo from "./componente/Titulo";
-import Saudacao from "./componente/Saudacao";
-import FotoPerfil from './componente/FotoPerfil';
-import CartaoUsuario from "./componente/CartaoUsuario";
+import Titulo from "./componentes/titulo";
+import Saudacao from "./componentes/Saudacao";
+import FotoPerfil from './componentes/FotoPerfil';
+import CartaoUsuario from "./componentes/cartaoUsuario";
+
 
 export default function App() {
-return <ScrollView>
-<Titulo />
-<Saudacao nome='pedro' />
-<FotoPerfil />
+ return <ScrollView>
+   <Titulo />
+   <Saudacao nome='Pedro' />
+   <FotoPerfil />
 
-<CartaoUsuario nome='alexardson'
-descricao={'Programador Mobile'}
-img='1.jpg'
-/>
 
-<CartaoUsuario nome='nicolas caquinhoMa'
-descricao={'Programador Mobile'}
-img='2.jpg'
-/>
+   <CartaoUsuario nome='gabriel'
+     descricao={'Programador Mobile'}
+     img='perfil002'
+   />
 
-<CartaoUsuario nome='guilherme pinto'
-descricao={'Programador Mobile'}
-img='3.jpg'
-/>
 
-<CartaoUsuario nome='gabriel beicinho'
-descricao={'Programador Mobile'}
-img='4.jpg'
-/>
+   <CartaoUsuario nome='Pedro'
+     descricao={'Programador Mobile'}
+     img='perfil01'
+   />
 
-<CartaoUsuario nome='alexota'
-descricao={'Programador Mobile'}
-img='5.jpg'
-/>
 
-</ScrollView>
+   <CartaoUsuario nome='Guilherme'
+     descricao={'Programador Mobile'}
+     img='perfil02'
+   />
+
+
+   <CartaoUsuario nome='nicolas'
+     descricao={'Programador Mobile'}
+     img='perfil03'
+   />
+
+
+   <CartaoUsuario nome='thiago'
+     descricao={'Programador Mobile'}
+     img='perfil04'
+   />
+
+
+ </ScrollView>
+
 
 }
+
+
+
