@@ -1,6 +1,6 @@
 import React from "react";
 import { ScrollView } from "react-native";
-import Titulo from "./componentes/titulo";
+import Titulo from "/componentes/titulo";
 import Saudacao from "./componentes/Saudacao";
 import FotoPerfil from './componentes/FotoPerfil';
 import CartaoUsuario from "./componentes/cartaoUsuario";
