@@ -11,7 +11,7 @@ return <ScrollView>
 <Saudacao nome='pedro' />
 <FotoPerfil />
 
-<CartaoUsuario nome='Bosta Amarela'
+<CartaoUsuario nome='alexardson'
 descricao={'Programador Mobile'}
 img='1.jpg'
 />
