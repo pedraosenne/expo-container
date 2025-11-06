@@ -1,45 +1,50 @@
 import React from "react";
 import { ScrollView } from "react-native";
-import Titulo from "/componentes/titulo";
-import Saudacao from "./componentes/Saudacao";
-import FotoPerfil from './componentes/FotoPerfil';
-import CartaoUsuario from "./componentes/cartaoUsuario";
+import Titulo from "./componente/Titulo";
+import Saudacao from "./componente/Saudacao";
+import FotoPerfil from "./componente/Fotoperfil";
+import CartaoUsuario from "./componente/Cartaousuario";
 
 
 export default function App() {
  return <ScrollView>
    <Titulo />
-   <Saudacao nome='Pedro' />
+   <Saudacao nome='Nicolas' />
    <FotoPerfil />
 
 
    <CartaoUsuario nome='gabriel'
      descricao={'Programador Mobile'}
-     img='1.jpg'
+     img='perfil00'
    />
 
 
    <CartaoUsuario nome='Pedro'
      descricao={'Programador Mobile'}
-     img='2.jpg'
+     img='perfil01'
    />
 
 
    <CartaoUsuario nome='Guilherme'
      descricao={'Programador Mobile'}
-     img='3.jpg'
+     img='perfil02'
    />
 
 
    <CartaoUsuario nome='nicolas'
      descricao={'Programador Mobile'}
-     img='4.jpg'
+     img='perfil03'
    />
+
+
+   <CartaoUsuario nome='thiago'
+     descricao={'Programador Mobile'}
+     img='perfil04'
+   />
+
 
  </ScrollView>
 
 
 }
-
-
 
