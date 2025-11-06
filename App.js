@@ -1,17 +1,41 @@
-import react from "react";
-import { ScrollView } from 'react-native';
-import Titulo from "./componentes/Titulo";
-import Saudacao from "./componentes/Saudacao";
+import React from "react";
+import { ScrollView } from "react-native";
+import Titulo from "./componente/Titulo";
+import Saudacao from "./componente/Saudacao";
+import FotoPerfil from './componente/FotoPerfil';
+import CartaoUsuario from "./componente/CartaoUsuario";
 
-export default function app(){
- return(
- <ScrollView style={{padding:20}}>
-  <Titulo /> 
- <Saudacao nome="Pedro"/>
- <Saudacao nome="Guilherme"/>
- <Saudacao nome="Nicolas"/>
+export default function App() {
+return <ScrollView>
+<Titulo />
+<Saudacao nome='pedro' />
+<FotoPerfil />
 
- </ScrollView>
- )
+<CartaoUsuario nome='Bosta Amarela'
+descricao={'Programador Mobile'}
+img='1.jpg'
+/>
+
+<CartaoUsuario nome='nicolas caquinhoMa'
+descricao={'Programador Mobile'}
+img='2.jpg'
+/>
+
+<CartaoUsuario nome='guilherme pinto'
+descricao={'Programador Mobile'}
+img='3.jpg'
+/>
+
+<CartaoUsuario nome='gabriel beicinho'
+descricao={'Programador Mobile'}
+img='4.jpg'
+/>
+
+<CartaoUsuario nome='alexota'
+descricao={'Programador Mobile'}
+img='5.jpg'
+/>
+
+</ScrollView>
+
 }
-
